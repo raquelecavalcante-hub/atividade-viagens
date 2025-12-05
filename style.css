@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao{
+    background-color:#EB662B;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 50px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+input[type="search"] {
+    flex-grow: 1;
+    max-width: 400px;
+    margin: 25px;
+    padding: 8px 12px;
+    border: 2px solid #6a696b;
+    border-radius: 2px;
+    font-size: 14px;
+    outline: none;
+}
+header{
+    display: flex;
+    align-items:center;
+    justify-content:left;
+    padding: 10px 20px;
+}
+.home{
+    display: flex;
+    align-items: center;
+}
+.banner{
+    background-image: url('./assents/bbefedc5e54293213050930488246d578b728422.jpg');
+width: 1800px;
+height: 700px;
+margin-top: 50px;
+justify-content: center;
+display: flex;
+display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.banner-texto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+ }
+ .texto{
+    font-size: 95px;
+ }
