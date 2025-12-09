@@ -1,3 +1,14 @@
+@font-face {
+  font-family:inter;
+  src: url("./assents/font/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: MontSerrat: /* Nome da font*/ ;
+}
+
 *{
     padding: 0%;
     margin: 0%;
@@ -12,7 +23,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 20px;
-    width: 100px;
+    width: 120px;
+    border: none;
 }
 li a{
     text-decoration: none;
@@ -38,8 +50,8 @@ input[type="search"] {
     max-width: 400px;
     margin: 25px;
     padding: 8px 12px;
-    border: 2px solid #6a696b;
-    border-radius: 2px;
+    border: none; /Tirar borda/
+    
     font-size: 14px;
     outline: none;
 }
@@ -54,7 +66,7 @@ header{
     align-items: center;
 }
 .banner{
-    background-image: url('./assents/bbefedc5e54293213050930488246d578b728422.jpg');
+    background-image: url(./assents/bbefedc5e54293213050930488246d578b728422.jpg);
 width: 1800px;
 height: 700px;
 margin-top: 50px;
@@ -76,3 +88,53 @@ display: block;
  .texto{
     font-size: 95px;
  }
+
+p{
+  font-family: Montserrat;
+}
+
+div.form-busca{
+  background: #ffffff;
+  color: #333;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  max-width: 900px;
+}
+
+.campo{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.icone{
+  width: 50px;
+  height: 50px;
+  background: #f0f0f0;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+.texto-paragrafo{
+
+  display: flex;
+  flex-direction: row;
+  margin: 150px;
+}
+
+
+
+
+.caixa-icones{
+  display: flex;
+  flex-direction: row;
+  margin: 150px;
+}
+.caixa paises[
+    
+]
